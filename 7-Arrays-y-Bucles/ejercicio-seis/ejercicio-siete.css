@@ -1,0 +1,4 @@
+button, .label1, .label2 {
+    display: flex;
+    flex-wrap: wrap;
+}
