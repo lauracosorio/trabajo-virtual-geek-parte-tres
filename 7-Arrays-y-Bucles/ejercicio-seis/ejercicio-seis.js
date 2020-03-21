@@ -11,10 +11,10 @@ function viewsArrayInput () {
         arrayInput.push(dataInput.value);
     });
 
-    for (const movies of arrayInput) {
+    for (const movies of arrayInput) { //El for of es para arrays ya definidos
         console.log(`¡A mi también me encantó ${movies}! Tenemos mucho en común, humana`)
-        message1.innerHTML = (`¡A mi también me encantó ${movies}! Tenemos mucho en común, humana`);
-        message2.innerHTML = (`¡A mi también me encantó ${movies}! Tenemos mucho en común, humana`);
+        // message1.innerHTML = (`¡A mi también me encantó ${movies}! Tenemos mucho en común, humana`);
+        // message2.innerHTML = (`¡A mi también me encantó ${movies}! Tenemos mucho en común, humana`);
     }
     
 } 

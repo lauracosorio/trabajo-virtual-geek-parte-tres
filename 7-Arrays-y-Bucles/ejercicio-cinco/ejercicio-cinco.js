@@ -1,12 +1,12 @@
 const numbers = [4, 23, 97, 13, 6, 4, 3, 2, 1,20, 100];
 numbers[11] = 8;
 
-// let acc = 0;
+let acc = 0;
 
-// for (let i = 0; i<numbers.length; i++){
-//     acc = (numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4] + numbers[5]);
-//     acc = acc / 6;
-// }
+for (let i = 0; i<numbers.length; i++){
+    acc = (numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4] + numbers[5]);
+    acc = acc / 6;
+}
 
 
 media = average(numbers);

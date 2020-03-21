@@ -54,16 +54,19 @@ console.log("La cantidad de Geek girls es : " + girls);
 
 media = averageAge(geekGirls);
 
+
+
 function averageAge(geekGirls){
       
     var acc = 0; //variable acumuladora
+    length = geekGirls.length;
 
-    for(let  j = 0; j < geekGirls; j ++) {
+    for(let  j = 0; j < geekGirls.length; j ++) {
 
         acc = (acc + geekGirls[j].age);// la acumuladora es igual a lo que está acumulando mas el array 
     }
 
-    return acc / geekGirls.length; // devuelve lo que acumuló divido el length del array
+    return acc / length; // devuelve lo que acumuló divido el length del array
 }
 
  console.log("La media de la edad es : " + media);

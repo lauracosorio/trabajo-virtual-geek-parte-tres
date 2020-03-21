@@ -8,3 +8,4 @@ geekGirl1.runAMarathon = (distance) => ` un maratón de ${distance} kilómetros`
 
 
 console.log(`${geekGirl1.run('corriendo')}${geekGirl1.runAMarathon(50)}`);
+
