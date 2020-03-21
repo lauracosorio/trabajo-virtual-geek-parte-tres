@@ -1,6 +1,7 @@
-'use strict'
+const eventoboton = document.querySelector('.boton');
 
-function message(){
-    const nombre = document.getElementById('saludo').innerHTML = 'Hola';
-    console.log(nombre);
+const imprimirevento = (evento) => {
+    console.log(evento);
 }
+
+eventoboton.addEventListener('click', imprimirevento);
